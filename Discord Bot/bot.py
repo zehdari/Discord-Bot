@@ -9,7 +9,7 @@ import shutil
 from discord.ext import commands
 from discord.utils import get
 
-TOKEN = 'NzM0MTI0MDI3NzMxNTA5MzQw.XxNIZA.zdbsdZPrNCvriJPOvcjs7Z6WMLw'
+TOKEN = ''
 client = commands.Bot(command_prefix = '+')
 
 @client.event
