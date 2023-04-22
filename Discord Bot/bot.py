@@ -14,7 +14,7 @@ client = commands.Bot(command_prefix = '+')
 
 @client.event
 async def on_ready():
-	await client.change_presence(status=discord.Status.do_not_disturb, activity=discord.Game("with my niggas"))
+	await client.change_presence(status=discord.Status.do_not_disturb, activity=discord.Game("with my boys"))
 	print('online')
 
 @client.command()
