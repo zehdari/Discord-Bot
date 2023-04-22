@@ -9,7 +9,7 @@ class funcogs(commands.Cog):
     @commands.command(aliases=['sup', 'hi', 'yo'])
     async def hello(self, ctx):
         user = ctx.message.author
-        await ctx.send(f"Sup {user.mention}, what's poppin nigga?")
+        await ctx.send(f"Sup {user.mention}, what's poppin?")
 
 def setup(client):
     client.add_cog(funcogs(client))
